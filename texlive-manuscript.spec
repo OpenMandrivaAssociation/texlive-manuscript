@@ -1,3 +1,9 @@
+# revision 17486
+# category Package
+# catalog-ctan /macros/latex/contrib/manuscript
+# catalog-date 2010-03-14 23:46:18 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-manuscript
 Version:	20100314
 Release:	1
@@ -46,6 +52,7 @@ typewriter is the summit of non-professional printing.
 %doc %{_texmfdistdir}/source/latex/manuscript/manuscript.drv
 %doc %{_texmfdistdir}/source/latex/manuscript/manuscript.dtx
 %doc %{_texmfdistdir}/source/latex/manuscript/manuscript.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ typewriter is the summit of non-professional printing.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
