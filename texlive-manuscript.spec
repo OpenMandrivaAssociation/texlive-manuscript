@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-manuscript
 Version:	20100314
-Release:	6
+Release:	7
 Summary:	Emulate look of a document typed on a typewriter
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/manuscript
