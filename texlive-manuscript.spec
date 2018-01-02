@@ -1,12 +1,6 @@
-# revision 17486
-# category Package
-# catalog-ctan /macros/latex/contrib/manuscript
-# catalog-date 2010-03-14 23:46:18 +0100
-# catalog-license lppl
-# catalog-version undef
 Name:		texlive-manuscript
-Version:	20100314
-Release:	10
+Version:	1.7
+Release:	1
 Summary:	Emulate look of a document typed on a typewriter
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/manuscript
@@ -34,14 +28,10 @@ typewriter is the summit of non-professional printing.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/manuscript/manuscript.sty
-%doc %{_texmfdistdir}/doc/latex/manuscript/README
-%doc %{_texmfdistdir}/doc/latex/manuscript/manuscript.pdf
+%{_texmfdistdir}/tex/latex/manuscript
+%doc %{_texmfdistdir}/doc/latex/manuscript
 #- source
-%doc %{_texmfdistdir}/source/latex/manuscript/Makefile
-%doc %{_texmfdistdir}/source/latex/manuscript/manuscript.drv
-%doc %{_texmfdistdir}/source/latex/manuscript/manuscript.dtx
-%doc %{_texmfdistdir}/source/latex/manuscript/manuscript.ins
+%doc %{_texmfdistdir}/source/latex/manuscript
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,17 +42,3 @@ typewriter is the summit of non-professional printing.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20100314-2
-+ Revision: 753736
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20100314-1
-+ Revision: 718953
-- texlive-manuscript
-- texlive-manuscript
-- texlive-manuscript
-- texlive-manuscript
-
