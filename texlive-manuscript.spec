@@ -1,6 +1,6 @@
 Name:		texlive-manuscript
 Version:	36110
-Release:	1
+Release:	2
 Summary:	Emulate look of a document typed on a typewriter
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/manuscript
