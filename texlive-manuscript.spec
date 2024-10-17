@@ -3,7 +3,7 @@ Version:	36110
 Release:	2
 Summary:	Emulate look of a document typed on a typewriter
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/manuscript
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/manuscript
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/manuscript.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/manuscript.doc.r%{version}.tar.xz
